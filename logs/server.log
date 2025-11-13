@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 262 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.4.106:3000/
+11:47:15 AM [vite] warning: The character "}" is not valid inside a JSX element
+213|                <tr key={i} className="border-t">
+214|                  <td className="py-2">{c.category}</td>
+215|                  <td className="text-right">${'{'}c.sales.toLocaleString(){'}'}}</td>
+   |                                                                                ^
+216|                </tr>
+217|              ))}
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx
